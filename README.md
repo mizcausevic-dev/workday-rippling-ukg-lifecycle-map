@@ -1,42 +1,49 @@
-# workday-rippling-ukg-lifecycle-map
+# Workday Rippling UKG Lifecycle Map
 
-Workday Rippling UKG Lifecycle Map is a Kinetic Gain portfolio proof repo for **Workday, Rippling, UKG** across HR Tech / Employment AI.
+Workday Rippling UKG Lifecycle Map turns Workday, Rippling, UKG operating evidence into board-ready exposure, savings, investment, and narrative decisions.
 
-It turns workforce lifecycle joins, onboarding/offboarding drift, access timing, and HRIS evidence gaps into a small board-readable intelligence packet: where risk is building, where money is leaking, what deserves investment, and what story leaders can tell with evidence.
+## What it answers
 
-## Platform and company signals
+Can leadership explain where Workday, Rippling, UKG creates exposure, savings opportunity, investment priority, or board-visible execution risk?
 
-- Workday
-- Rippling
-- UKG
+## Decision lanes
 
-## What it includes
+- **Exposure** (82) — Unowned workforce lifecycle joins, onboarding/offboarding drift, access timing, and HRIS evidence gaps Next: Assign an accountable owner and evidence path
+- **Savings** (76) — Duplicated tooling and stale workflow evidence Next: Quantify recoverable spend and remove duplicated handoffs
+- **Investment** (88) — Critical control plane needs clearer funding priority Next: Package the strongest board-ready investment narrative
 
-- runnable Node CLI for summarizing synthetic control-plane lanes
-- JSON fixture with exposure, savings, and investment lanes
-- static proof page in site/index.html
-- lightweight CI using Node's built-in test runner
-- no production credentials, no customer data, no external API calls
+## Operating workflow
+
+- **Ingest:** Collect Workday + Rippling + UKG operating evidence without exposing credentials or raw customer data.
+- **Score:** Translate exceptions into exposure, savings, investment, and narrative confidence lanes.
+- **Route:** Assign each lane to one accountable owner with a next action and review window.
+- **Package:** Produce a board-ready packet with decisions, tradeoffs, and proof links.
+
+## Board pack outputs
+
+- One-page HR Tech / Employment AI decision brief
+- Workday / Rippling / UKG exposure and ownership map
+- Priority lane: Investment
+- Savings, remediation, and investment narrative
+- Public-demo boundary and evidence-source notes
 
 ## Local run
 
-`powershell
+```bash
+npm install
 npm test
-npm run demo
 npm run build
-`
+```
 
-## Output shape
+## Links
 
-`json
-{
-  "product": "Workday Rippling UKG Lifecycle Map",
-  "signals": ["Workday", "Rippling", "UKG"],
-  "averageScore": 82,
-  "priorityLane": "investment"
-}
-`
+- [Portfolio atlas](https://portfolio.kineticgain.com/)
+- [Kinetic Gain](https://kineticgain.com/)
+- [GitHub repo](https://github.com/mizcausevic-dev/workday-rippling-ukg-lifecycle-map)
+- [Workday surface](https://workday.kineticgain.com/)
+- [Rippling surface](https://rippling.kineticgain.com/)
+- [UKG surface](https://ukg.kineticgain.com/)
 
-## Kinetic Gain fit
+## Public-demo boundary
 
-This repo supports the Platform and Company Signals layer of the portfolio atlas. It is intentionally small, readable, and evidence-oriented so executives can see the operating pattern without requiring access to live enterprise systems.
+No production credentials, customer records, private contracts, or admin-console exports belong in this repo. Fixtures are synthetic and intended to prove the decision shape only.
